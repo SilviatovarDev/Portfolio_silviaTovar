@@ -16,11 +16,14 @@ export class ProyectosComponent implements AfterViewInit { // Añadimos el imple
   listaProyectos = [
        { id: '00', nombre: 'Portfolio 26', categoria: 'UX/UI ', url: 'https://portfolio-silvia-tovar-bi6y.vercel.app', tags: ['Angular', 'TypeScript', 'Tailwind CSS', 'GSAP'] },
     { id: '01', nombre: 'Landing Page', categoria: 'Design and Development', url: 'https://silviatovardev.github.io/maquetacionDev/', tags: ['HTML', 'SASS', 'JAVASCRIPT'] },
-    {
-      id: '02', nombre: 'Portolio 25', categoria: 'UX/UI ', url: 'https://portfolio-silvia-tovar.vercel.app', tags: ['JavaScript', 'Bootstrap','HTML', 'CSS']
+     {
+      id: '02', nombre: 'INTERACTIVE ALBUM', categoria: 'UX/UI ', url: 'https://recuerdos-iota.vercel.app', tags: ['JavaScript','HTML', 'CSS']
     },
-    { id: '03', nombre: 'Comunitea', categoria: 'UX/UI - TFG DAW ', url: 'https://comunitea.infinityfreeapp.com', tags: ['JavaScript', 'Bootstrap', 'PHP', 'SQL', 'Figma'] },
-    { id: '04', nombre: 'H&M Redesign', categoria: 'Design UX', url: 'https://embed.figma.com/proto/551ryc9Tcnq5rFFXTxJPKo/H-M-Redesing?node-id=9-277&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A277&embed-host=share', tags: ['Figma'] }
+    {
+      id: '03', nombre: 'Portolio 25', categoria: 'UX/UI ', url: 'https://portfolio-silvia-tovar.vercel.app', tags: ['JavaScript', 'Bootstrap','HTML', 'CSS']
+    },
+    { id: '04', nombre: 'Comunitea', categoria: 'UX/UI - TFG DAW ', url: 'https://comunitea.infinityfreeapp.com', tags: ['JavaScript', 'Bootstrap', 'PHP', 'SQL', 'Figma'] },
+    { id: '05', nombre: 'H&M Redesign', categoria: 'Design UX', url: 'https://embed.figma.com/proto/551ryc9Tcnq5rFFXTxJPKo/H-M-Redesing?node-id=9-277&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A277&embed-host=share', tags: ['Figma'] }
   ];
 
   ngAfterViewInit(): void {
