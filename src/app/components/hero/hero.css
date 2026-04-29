@@ -1,0 +1,8 @@
+nav a {
+  opacity: 0;
+  transform: translateX(-20px); 
+  display: block; 
+}
+.fondo-marron {
+  will-change: clip-path;
+}

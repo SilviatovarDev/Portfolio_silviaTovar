@@ -1,0 +1,28 @@
+#sobre-mi {
+  position: relative;
+
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/ordenador.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.15; 
+  z-index: 10;
+  pointer-events: none; 
+  filter: grayscale(100%) contrast(120%); 
+}
+.about-imagen img {
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

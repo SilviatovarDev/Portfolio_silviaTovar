@@ -1,0 +1,22 @@
+#contacto {
+  background-color: #441313;
+  margin-top: -1px;
+}
+
+.marquee-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  transform: translateY(-10%);
+}
+
+#letsTalk {
+  display: inline-block;
+  will-change: transform;
+  white-space: nowrap; 
+}
+
+.contacto-iconos {
+  perspective: 1000px; 
+}
+

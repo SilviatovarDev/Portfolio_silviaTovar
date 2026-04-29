@@ -1,0 +1,8 @@
+
+@import 'tailwindcss';
+html, body {
+  background-color: #612626; /* El color de tu sección de Proyectos */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
