@@ -14,8 +14,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 export class ProyectosComponent implements AfterViewInit { // Añadimos el implements
 
   listaProyectos = [
-       { id: '00', nombre: 'Portfolio 26', categoria: 'UX/UI ', url: '', tags: ['Angular', 'TypeScript', 'Tailwind CSS', 'GSAP'] },
-    { id: '01', nombre: 'Landing Page', categoria: 'Design and Development', url: 'https://portfolio-silvia-tovar-bi6y.vercel.app', tags: ['HTML', 'SASS', 'JAVASCRIPT'] },
+       { id: '00', nombre: 'Portfolio 26', categoria: 'UX/UI ', url: 'https://portfolio-silvia-tovar-bi6y.vercel.app', tags: ['Angular', 'TypeScript', 'Tailwind CSS', 'GSAP'] },
+    { id: '01', nombre: 'Landing Page', categoria: 'Design and Development', url: 'https://silviatovardev.github.io/maquetacionDev/', tags: ['HTML', 'SASS', 'JAVASCRIPT'] },
     {
       id: '02', nombre: 'Portolio 25', categoria: 'UX/UI ', url: 'https://portfolio-silvia-tovar.vercel.app', tags: ['JavaScript', 'Bootstrap','HTML', 'CSS']
     },
